@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<body>
+    <section class="contactheader">
+        <nav>
+            <a href="index.html">
+                <img src="university-logo-silhouette-vector_769314-5986.avif" alt="">
+            </a>
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="none()"></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="show()"></i>
+        </nav>
+
+        <div class="text-container">
+            <h1>Contact Us</h1>
+
+        </div>
+    </section>
+
+
+    <!--------------------------contact us page-------------------------->
+    <section class="contact-cont">
+        <h1>Location</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31170.846130470905!2d80.0909424!3d12.425999900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a53081b13c8287d%3A0xf24cce7aeca2619c!2sKuvathur%2C%20Tamil%20Nadu%20603305!5e0!3m2!1sen!2sin!4v1734543636007!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+    <!---------------contact detal----------->
+
+    <section class="detail">
+        <div class="detail-cont">
+            <div class="right">
+                <div class="ic">
+                <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <h3>+ 9787475737</h3>
+                    <p>Bangalore Karnataka In</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="ic">
+                <i class="fa-solid fa-house"></i>
+                </div>
+                <div>
+                    <h3>XYZ Road ABC Building</h3>
+                    <p>Bangalore Karnataka In</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="ic">
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <h3>mohamedashik@gmail.com</h3>
+                    <p>Bangalore Karnataka In</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="detail-cont">
+            <div class="left">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <input type="text" placeholder="Enter your subject">
+                <textarea name="" id="" placeholder="Message"></textarea>
+                <button>Send Message</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------about us---------------->
+
+    <section class="about">
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Eveniet consequuntur hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex.
+            asperiores quam itaque dolor.
+        <div class="about-icon">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""> <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/watch?v=F_LCTZ42FXg"><i class="fa-brands fa-youtube"></i></a>
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+<script>
+    var navlinks = document.getElementById("navlinks")
+    function none() {
+        navlinks.style.top = "-200%"
+    }
+    function show() {
+        navlinks.style.top = "0"
+    }
+</script>
+
+</html>

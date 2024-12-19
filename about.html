@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html">
+                <img src="university-logo-silhouette-vector_769314-5986.avif" alt="">
+            </a>
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="none()"></i>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="show()"></i>
+        </nav>
+             
+        <div class="text-container">
+            <h1>About Us</h1>
+            
+        </div>
+    </section>
+
+
+
+
+    <!----------------------about page------------------->
+    <section class="about-page">
+        <div class="layout">
+            <h1>We are the world's largest <br>university</br></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et nulla est 
+                dolorum voluptatem hic impedit minus atque tempora asperiores? Eos deleniti 
+                quis est. Error culpa similique,Lorem ipsum dolor, sit amet consectetur
+                 adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing 
+                 elit. Maiores, numquam!
+                . Consectetur, sequi.
+                 perspiciatis facilis fugit minus.
+                 <div>
+                <button>EXPLORE NOW</button>
+                </div>
+            </p>
+        </div>
+        <div class="layout-img">
+            <img src="lay.jpeg" alt="">
+        </div>
+    </section>
+      <!------------------about us---------------->
+
+      <section class="about">
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Eveniet consequuntur hic Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex.
+             asperiores quam itaque dolor.
+             <div class="about-icon">
+               <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""> <i class="fa-brands fa-twitter"></i></a>
+               <a href="https://www.youtube.com/watch?v=F_LCTZ42FXg"><i class="fa-brands fa-youtube"></i></a>
+              <a href=""> <i class="fa-brands fa-instagram"></i></a>
+
+             </div>
+    </section>
+   
+</body>
+<script>
+    var navlinks = document.getElementById("navlinks")
+    function none() {
+        navlinks.style.top = "-200%"
+    }
+    function show() {
+        navlinks.style.top = "0"
+    }
+</script>
+</html>
